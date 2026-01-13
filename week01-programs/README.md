@@ -25,3 +25,14 @@ A program is a list of instructions that the computer follows exactly
    We need it for the entry of a C program. I once tried running a program without it. It wouldn't run and gave an error about needing one. C has particular syntax in place. 
 
    I think another reason is it lets us see the waterfall of files (once there is a bigger file tree). We can start with main where functions are called and then trickle down into other ones from there. 
+
+#### Comments
+
+    **Look at how malloc and calloc work** 
+    -> what knows about memory??
+
+    Look at PR's and understand what is being done, don't just look for typos 
+
+    Just in time compiled -> what does that mean? 
+
+    Look at build times of asan (debug) vs release
