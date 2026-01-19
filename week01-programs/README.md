@@ -30,9 +30,15 @@ A program is a list of instructions that the computer follows exactly
 
     **Look at how malloc and calloc work** 
     -> what knows about memory??
+        Malloc -> initializes garbage (use when immediately filling the memory with data)
+        calloc -> initializes to 0 (slower, but not as much as it used to be)
+        Allocated to the heap (dynamic memory) and stack (automatic memory), which stores the memory 
+        Handled by the Operating System (specifically the memory manager)
 
     Look at PR's and understand what is being done, don't just look for typos 
 
     Just in time compiled -> what does that mean? 
+        It means that the code isn't compiled until it is used. 
 
     Look at build times of asan (debug) vs release
+        It can be faster, but I am confused. It mentions it being more optimized during release builds and less optimized during debugging. So I think my understanding of it being faster is wrong. I think it just depends on the project! 
